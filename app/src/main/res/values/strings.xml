@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scroll Budget</string>
+    <string name="app_tagline">Infinite scroll, finite time</string>
+    <string name="setup_heading">Quick Setup</string>
+    <string name="setup_instructions">Turn these on so the app can do its job:</string>
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="enable_overlay">Enable Overlay Permission</string>
+    <string name="submit_answer">Submit</string>
+    <string name="close_app">Close app</string>
+    <string name="accessibility_service_description">Lets Scroll Budget detect when Instagram/YouTube is in the foreground, so it can track daily usage.</string>
+    <string name="books_heading">📚 Your Books</string>
+    <string name="streak_starting">Stay off social media -- your streak is just starting…</string>
+    <string name="ai_coach_heading">🤖 AI Coach (Gemini — Free)</string>
+    <string name="ai_coach_description">Add your own free Gemini API key (from aistudio.google.com, no credit card needed) to get a short, personalized motivation message based on your current streak. Your key stays on this device and is only sent directly to Google\'s API.</string>
+    <string name="api_key_hint">Paste your free Gemini API key here</string>
+    <string name="save_api_key">Save API Key</string>
+    <string name="ask_ai_motivation">Get Motivation from AI</string>
+    <string name="reminders_heading">⏰ Reminders</string>
+    <string name="reminders_description">Set your own reminders. Your phone will vibrate strongly when the scheduled time arrives.</string>
+    <string name="manage_reminders">Manage Reminders</string>
+
+    <string-array name="final_messages">
+        <item>You have clocked %2$d min on %1$s today.\n\nRead a page, finish a task, do something.\nExtensions are done for today.</item>
+        <item>Here is today\'s tally: %2$d min on %1$s.\n\nRemember your goals -- that is the scroll that actually matters.\nExtensions are done.</item>
+        <item>%1$s took %2$d min from you today.\n\nGet up, stretch, drink some water, then get back to it.\nToday\'s extensions are done.</item>
+        <item>You have clocked %2$d min on %1$s today.\n\nRemember your goals -- that is the scroll that actually matters.\nExtensions are done.</item>
+        <item>You have clocked %2$d min on %1$s today.\n\nThis is a good moment to learn something new.\nToday\'s extensions are done.</item>
+        <item>%2$d minutes gone on %1$s today.\n\nWhatever you have been avoiding, now is the time for it.\nToday\'s extensions are done.</item>
+        <item>Here is today\'s tally: %2$d min on %1$s.\n\nThat time could have gone into something that actually moves you forward.\nYour extensions are done for today.</item>
+        <item>%1$s cost you %2$d min today.\n\nThat time could have gone into something that actually moves you forward.\nYour extensions are done for today.</item>
+        <item>%2$d min went into %1$s today.\n\nSmall steps, big results -- start now.\nExtensions are done.</item>
+        <item>You spent %2$d min on %1$s today.\n\nRead a page, finish a task, do something.\nExtensions are done for today.</item>
+        <item>Here is today\'s tally: %2$d min on %1$s.\n\nWhatever you have been putting off -- now is the time.\nExtensions are done.</item>
+        <item>Today you scrolled %1$s for %2$d min.\n\nRemember your goals -- that is the scroll that actually matters.\nExtensions are done.</item>
+        <item>Today\'s %1$s scroll added up to %2$d min.\n\nThat time is not coming back -- go start the next thing.\nExtensions are done for today.</item>
+        <item>Time check: %2$d min already on %1$s.\n\nWhatever you have been putting off -- now is the time.\nExtensions are done.</item>
+        <item>Time check: %2$d min already on %1$s.\n\nGive your eyes a break from the screen.\nToday\'s extensions are done.</item>
+        <item>You spent %2$d min on %1$s today.\n\nGet up, stretch, drink some water, then get back to it.\nToday\'s extensions are done.</item>
+        <item>%2$d min went into %1$s today.\n\nWhatever you have been avoiding, now is the time for it.\nToday\'s extensions are done.</item>
+        <item>%2$d min of your day went to %1$s.\n\nRead a page, finish a task, do something.\nExtensions are done for today.</item>
+        <item>%1$s took %2$d min from you today.\n\nScrolling off, life on -- let\'s go do something.\nExtensions are done.</item>
+        <item>You have clocked %2$d min on %1$s today.\n\nGive your eyes a break from the screen.\nToday\'s extensions are done.</item>
+        <item>Here is today\'s tally: %2$d min on %1$s.\n\nThat time is not coming back -- go start the next thing.\nExtensions are done for today.</item>
+        <item>%2$d min of your day went to %1$s.\n\nScrolling off, life on -- let\'s go do something.\nExtensions are done.</item>
+        <item>%2$d min -- that is what %1$s took today.\n\nYou will look back tomorrow and feel proud -- move now.\nExtensions are done.</item>
+        <item>%2$d min -- that is what %1$s took today.\n\nDo one small thing now that future-you will thank you for.\nExtensions are done.</item>
+        <item>Today\'s %1$s scroll added up to %2$d min.\n\nYour best version is waiting on the other side of this.\nToday\'s extensions are done.</item>
+        <item>%1$s took %2$d min from you today.\n\nThat time could have gone into something that actually moves you forward.\nYour extensions are done for today.</item>
+        <item>Today\'s %1$s scroll added up to %2$d min.\n\nWhatever you have been putting off -- now is the time.\nExtensions are done.</item>
+        <item>You spent %2$d min on %1$s today.\n\nDo one small thing now that future-you will thank you for.\nExtensions are done.</item>
+        <item>%2$d min -- that is what %1$s took today.\n\nPut the phone down, take a deep breath, and do something real.\nToday\'s extensions are used up.</item>
+        <item>Today you scrolled %1$s for %2$d min.\n\nWhatever you have been putting off -- now is the time.\nExtensions are done.</item>
+        <item>You have clocked %2$d min on %1$s today.\n\nYour best version is waiting on the other side of this.\nToday\'s extensions are done.</item>
+        <item>You spent %2$d min on %1$s today.\n\nTomorrow\'s you deserves a better decision than today\'s.\nToday\'s extensions are done.</item>
+        <item>%2$d minutes gone on %1$s today.\n\nSmall steps, big results -- start now.\nExtensions are done.</item>
+        <item>%2$d min went into %1$s today.\n\nRemember your goals -- that is the scroll that actually matters.\nExtensions are done.</item>
+        <item>%1$s took %2$d min from you today.\n\nThis is a good moment to learn something new.\nToday\'s extensions are done.</item>
+        <item>%2$d minutes gone on %1$s today.\n\nSet one small goal for the next 30 minutes.\nExtensions are done for today.</item>
+        <item>%2$d min went into %1$s today.\n\nRead a page, finish a task, do something.\nExtensions are done for today.</item>
+        <item>You have clocked %2$d min on %1$s today.\n\nTomorrow\'s you deserves a better decision than today\'s.\nToday\'s extensions are done.</item>
+        <item>You spent %2$d min on %1$s today.\n\nThat time is not coming back -- go start the next thing.\nExtensions are done for today.</item>
+        <item>%2$d minutes gone on %1$s today.\n\nYour best version is waiting on the other side of this.\nToday\'s extensions are done.</item>
+        <item>Time check: %2$d min already on %1$s.\n\nRead a page, finish a task, do something.\nExtensions are done for today.</item>
+        <item>You have clocked %2$d min on %1$s today.\n\nSmall steps, big results -- start now.\nExtensions are done.</item>
+        <item>Here is today\'s tally: %2$d min on %1$s.\n\nScrolling off, life on -- let\'s go do something.\nExtensions are done.</item>
+        <item>%1$s took %2$d min from you today.\n\nWhatever you have been avoiding, now is the time for it.\nToday\'s extensions are done.</item>
+        <item>%2$d min -- that is what %1$s took today.\n\nChoose this moment for yourself, not for the feed.\nToday\'s extensions are done.</item>
+        <item>%2$d min -- that is what %1$s took today.\n\nYour best version is waiting on the other side of this.\nToday\'s extensions are done.</item>
+        <item>%1$s cost you %2$d min today.\n\nTomorrow\'s you deserves a better decision than today\'s.\nToday\'s extensions are done.</item>
+        <item>Time check: %2$d min already on %1$s.\n\nSmall steps, big results -- start now.\nExtensions are done.</item>
+        <item>%2$d min went into %1$s today.\n\nYour best version is waiting on the other side of this.\nToday\'s extensions are done.</item>
+        <item>Today\'s %1$s scroll added up to %2$d min.\n\nRemember your goals -- that is the scroll that actually matters.\nExtensions are done.</item>
+        <item>You have clocked %2$d min on %1$s today.\n\nScrolling off, life on -- let\'s go do something.\nExtensions are done.</item>
+        <item>Time check: %2$d min already on %1$s.\n\nPut the phone down, take a deep breath, and do something real.\nToday\'s extensions are used up.</item>
+        <item>Today you scrolled %1$s for %2$d min.\n\nDo one small thing now that future-you will thank you for.\nExtensions are done.</item>
+        <item>%2$d min went into %1$s today.\n\nGive your eyes a break from the screen.\nToday\'s extensions are done.</item>
+        <item>Here is today\'s tally: %2$d min on %1$s.\n\nSet one small goal for the next 30 minutes.\nExtensions are done for today.</item>
+        <item>You spent %2$d min on %1$s today.\n\nThat time could have gone into something that actually moves you forward.\nYour extensions are done for today.</item>
+        <item>Time check: %2$d min already on %1$s.\n\nYour best version is waiting on the other side of this.\nToday\'s extensions are done.</item>
+        <item>%2$d min of your day went to %1$s.\n\nSet one small goal for the next 30 minutes.\nExtensions are done for today.</item>
+        <item>You have clocked %2$d min on %1$s today.\n\nSet one small goal for the next 30 minutes.\nExtensions are done for today.</item>
+        <item>You have clocked %2$d min on %1$s today.\n\nDo one small thing now that future-you will thank you for.\nExtensions are done.</item>
+        <item>You have clocked %2$d min on %1$s today.\n\nWhatever you have been avoiding, now is the time for it.\nToday\'s extensions are done.</item>
+        <item>You spent %2$d min on %1$s today.\n\nWhatever you have been putting off -- now is the time.\nExtensions are done.</item>
+        <item>Today\'s %1$s scroll added up to %2$d min.\n\nGet up, stretch, drink some water, then get back to it.\nToday\'s extensions are done.</item>
+        <item>%2$d minutes gone on %1$s today.\n\nRemember your goals -- that is the scroll that actually matters.\nExtensions are done.</item>
+        <item>%1$s cost you %2$d min today.\n\nPut the phone down, take a deep breath, and do something real.\nToday\'s extensions are used up.</item>
+        <item>Time check: %2$d min already on %1$s.\n\nWhatever you have been avoiding, now is the time for it.\nToday\'s extensions are done.</item>
+        <item>Today you scrolled %1$s for %2$d min.\n\nYou will look back tomorrow and feel proud -- move now.\nExtensions are done.</item>
+        <item>%2$d min of your day went to %1$s.\n\nGet up, stretch, drink some water, then get back to it.\nToday\'s extensions are done.</item>
+        <item>%2$d min went into %1$s today.\n\nDo one small thing now that future-you will thank you for.\nExtensions are done.</item>
+        <item>Today\'s %1$s scroll added up to %2$d min.\n\nThat time could have gone into something that actually moves you forward.\nYour extensions are done for today.</item>
+        <item>%2$d minutes gone on %1$s today.\n\nYou will look back tomorrow and feel proud -- move now.\nExtensions are done.</item>
+        <item>%2$d min went into %1$s today.\n\nChoose this moment for yourself, not for the feed.\nToday\'s extensions are done.</item>
+        <item>Today you scrolled %1$s for %2$d min.\n\nSmall steps, big results -- start now.\nExtensions are done.</item>
+        <item>%1$s took %2$d min from you today.\n\nTomorrow\'s you deserves a better decision than today\'s.\nToday\'s extensions are done.</item>
+        <item>%2$d min -- that is what %1$s took today.\n\nSmall steps, big results -- start now.\nExtensions are done.</item>
+        <item>%2$d min of your day went to %1$s.\n\nPut the phone down, take a deep breath, and do something real.\nToday\'s extensions are used up.</item>
+        <item>Here is today\'s tally: %2$d min on %1$s.\n\nGive your eyes a break from the screen.\nToday\'s extensions are done.</item>
+        <item>Here is today\'s tally: %2$d min on %1$s.\n\nYour best version is waiting on the other side of this.\nToday\'s extensions are done.</item>
+        <item>Today you scrolled %1$s for %2$d min.\n\nYour best version is waiting on the other side of this.\nToday\'s extensions are done.</item>
+        <item>%2$d min -- that is what %1$s took today.\n\nRemember your goals -- that is the scroll that actually matters.\nExtensions are done.</item>
+        <item>%2$d min -- that is what %1$s took today.\n\nThis is a good moment to learn something new.\nToday\'s extensions are done.</item>
+        <item>%1$s cost you %2$d min today.\n\nThat time is not coming back -- go start the next thing.\nExtensions are done for today.</item>
+        <item>%2$d minutes gone on %1$s today.\n\nScrolling off, life on -- let\'s go do something.\nExtensions are done.</item>
+        <item>%1$s took %2$d min from you today.\n\nRead a page, finish a task, do something.\nExtensions are done for today.</item>
+        <item>Time check: %2$d min already on %1$s.\n\nSet one small goal for the next 30 minutes.\nExtensions are done for today.</item>
+        <item>Today\'s %1$s scroll added up to %2$d min.\n\nSet one small goal for the next 30 minutes.\nExtensions are done for today.</item>
+        <item>%1$s cost you %2$d min today.\n\nScrolling off, life on -- let\'s go do something.\nExtensions are done.</item>
+        <item>%2$d minutes gone on %1$s today.\n\nThat time is not coming back -- go start the next thing.\nExtensions are done for today.</item>
+        <item>Today you scrolled %1$s for %2$d min.\n\nScrolling off, life on -- let\'s go do something.\nExtensions are done.</item>
+        <item>%2$d min went into %1$s today.\n\nWhatever you have been putting off -- now is the time.\nExtensions are done.</item>
+        <item>You spent %2$d min on %1$s today.\n\nPut the phone down, take a deep breath, and do something real.\nToday\'s extensions are used up.</item>
+        <item>Time check: %2$d min already on %1$s.\n\nScrolling off, life on -- let\'s go do something.\nExtensions are done.</item>
+        <item>%1$s took %2$d min from you today.\n\nSmall steps, big results -- start now.\nExtensions are done.</item>
+        <item>Today you scrolled %1$s for %2$d min.\n\nRead a page, finish a task, do something.\nExtensions are done for today.</item>
+        <item>%1$s took %2$d min from you today.\n\nDo one small thing now that future-you will thank you for.\nExtensions are done.</item>
+        <item>%1$s cost you %2$d min today.\n\nRead a page, finish a task, do something.\nExtensions are done for today.</item>
+        <item>%2$d min -- that is what %1$s took today.\n\nWhatever you have been avoiding, now is the time for it.\nToday\'s extensions are done.</item>
+        <item>%2$d min of your day went to %1$s.\n\nTomorrow\'s you deserves a better decision than today\'s.\nToday\'s extensions are done.</item>
+        <item>Time check: %2$d min already on %1$s.\n\nChoose this moment for yourself, not for the feed.\nToday\'s extensions are done.</item>
+        <item>Today\'s %1$s scroll added up to %2$d min.\n\nYou will look back tomorrow and feel proud -- move now.\nExtensions are done.</item>
+    </string-array>
+</resources>

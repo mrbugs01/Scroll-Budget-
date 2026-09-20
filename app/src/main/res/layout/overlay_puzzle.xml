@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#EE0F0E1A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/bg_overlay_card">
+
+        <TextView
+            android:id="@+id/overlayIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⏳"
+            android:textSize="40sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/overlayMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brand_text_primary"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/puzzleInput"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textColor="@color/brand_text_primary"
+            android:textColorHint="@color/brand_text_secondary"
+            android:hint="?"
+            android:background="@drawable/bg_button_secondary"
+            android:layout_marginBottom="24dp" />
+
+        <LinearLayout
+            android:id="@+id/choicesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/choice0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button_secondary"
+                android:textColor="@color/brand_text_primary"
+                android:textAllCaps="false"
+                android:elevation="0dp"
+                android:gravity="start|center_vertical"
+                android:paddingStart="20dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/choice1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button_secondary"
+                android:textColor="@color/brand_text_primary"
+                android:textAllCaps="false"
+                android:elevation="0dp"
+                android:gravity="start|center_vertical"
+                android:paddingStart="20dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/choice2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button_secondary"
+                android:textColor="@color/brand_text_primary"
+                android:textAllCaps="false"
+                android:elevation="0dp"
+                android:gravity="start|center_vertical"
+                android:paddingStart="20dp"
+                android:layout_marginBottom="24dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_primary"
+            android:text="@string/submit_answer"
+            android:textColor="@color/brand_text_primary"
+            android:textAllCaps="false"
+            android:elevation="0dp"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_secondary"
+            android:text="@string/close_app"
+            android:textColor="@color/brand_text_secondary"
+            android:textAllCaps="false"
+            android:elevation="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

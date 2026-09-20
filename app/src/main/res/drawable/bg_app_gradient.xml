@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base diagonal gradient: rich violet at top, fading through indigo to near-black -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="115"
+                android:startColor="#5B21B6"
+                android:centerColor="#241259"
+                android:endColor="#08050F" />
+        </shape>
+    </item>
+
+    <!-- Soft glow blob near the top, for a futuristic depth effect -->
+    <item
+        android:top="-260dp"
+        android:left="-60dp"
+        android:right="-60dp"
+        android:bottom="500dp">
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="260dp"
+                android:startColor="#664C1D95"
+                android:centerColor="#2E4C1D95"
+                android:endColor="#004C1D95" />
+        </shape>
+    </item>
+
+</layer-list>
